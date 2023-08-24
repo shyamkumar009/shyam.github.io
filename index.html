@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Shyam's Portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>hyam <span>K</span>umar</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Education</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Shyam <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Edu<span>ca</span>tion</h1>
+        <h2>Basic Qualification</h2>
+        <div class="img"><img src="images/Kl logo.jpg" alt="University Logo" /></div>
+        <h2>Koneru Lakshmaiah University</h2>
+        <h3>Master's in Computer Applications</h3>
+        <h4>2022-2024</h4>
+        <p>⚡ I graduated from Koneru Lakshmaiah University with an aggregate of 80%.</p>
+        <p>⚡ I've also attended various technical workshops conducted in different states of India online.</p>
+        <a href="https://www.kluniversity.in/" class="cta" target="_blank" rel="noopener noreferrer">Visit Website</a>
+      </div>
+    </div>
+    <div class="services container">
+      <h1 class="section-title">Certi<span>fic</span>ation</h1>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="card"><img src="images/Azure.jpg" alt="Azure Certification" /></div>
+          <h2>Azure</h2>
+        </div>
+        <div class="service-item">
+          <div class="card"><img src="images/ML_Basics.jpg" alt="ML Basics Certification" /></div>
+          <h2>ML Basics</h2>
+        </div>
+        <div class="service-item">
+          <div class="card"><img src="images/ML_Intro.jpg" alt="ML Introduction Certification" /></div>
+          <h2>ML Introduction</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Mango Detection using SSD MobileNetV2</h1>
+            <h2>Framework: TensorFlow</h2>
+            <h3>GPU: 1.14</h3>
+            <p>The project is built by training a Single Shot Detector MobileNetV2 model on a dataset of mangoes
+              obtained
+              from Google Images. The system can use any camera pointed towards mango trees to detect mangoes in
+              real-time.
+              The model is trained to draw bounding boxes around the mangoes and count them. The count is displayed as a
+              label
+              on the screen.</p>
+          </div>
+          <div class="project-img">
+            <img src="images/Mango Detection Using SSD Mobile Net v2.png.jpg" alt="Project Image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Fire Fighting Robot</h1>
+            <h2>Platform: Arduino Uno</h2>
+            <p>The robot uses a flame sensor to detect fire and sends the information to an Arduino, which acts as the
+              brain
+              of the robot. Based on sensor input, the Arduino commands the motors to move in the required direction. If
+              the
+              left sensor detects fire, the robot moves left, and the same applies to the front and right sides.
+
+              The robot stops near the fire source and initiates a watering mechanism until the fire is under control.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="images/fire.png" alt="Project Image">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Portfolio</h1>
+            <h2>Technologies: HTML, CSS, JavaScript</h2>
+            <p>This portfolio website showcases my academic achievements, skills, and projects. It provides a dynamic
+              representation
+              of my capabilities, enabling connections with potential employers, collaborators, and educational
+              institutions. The
+              website offers a seamless user experience across various devices and includes various content sections to
+              effectively
+              communicate my profile.</p>
+          </div>
+          <div class="project-img">
+            <img src="images/sam.jpg" alt="Project Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="images/Person.jpg" alt="Image">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Me</span></h1>
+        <h2>I am a Student</h2>
+        <p>A passionate individual who always strives to work on end-to-end products that develop sustainable and
+          scalable technical systems to create an impact.</p>
+        <a href="images/shyamKumar.pdf" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-top">
+        <div class="section-title">Get <span> In</span> Touch</div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="images/phone.png" alt="phone" /></div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+1 630-248-2417</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="images/email.png" alt="email" /></div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>shyamkumar21032000@gmail.com</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <a href="https://goo.gl/maps/sYRrSjxMVup1pk3c8">
+                <img src="images/map.png" alt="map" />
+              </a>
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Vijayawada, Andhra Pradesh, India</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>hyam <span>K</span>umar</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/shyam.pagadala/"><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="Facebook Icon" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/mr.sammy_1707/?next=%2F"><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="Instagram Icon" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/shyamkumar-pagadala-a2708b1a9"><img
+              src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="LinkedIn Icon" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 Shyam. All rights reserved</p>
+    </div>
+  </section>
+
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+
+</html>
