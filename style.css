@@ -682,7 +682,7 @@ p {
 }
 
 #footer .social-item:hover img {
-  filter: grayscale(0);
+  filter: grayscale(1);
 }
 
 #footer p {
